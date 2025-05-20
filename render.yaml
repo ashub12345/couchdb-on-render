@@ -4,3 +4,8 @@ services:
     env: docker
     plan: free
     autoDeploy: true
+    envVars:
+      - key: COUCHDB_USER
+        value: admin
+      - key: COUCHDB_PASSWORD
+        value: admin123
