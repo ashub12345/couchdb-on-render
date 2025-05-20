@@ -6,6 +6,6 @@ services:
     autoDeploy: true
     envVars:
       - key: COUCHDB_USER
-        value: admin
+        value:admin
       - key: COUCHDB_PASSWORD
-        value: admin123
+        value:admin123
